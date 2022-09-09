@@ -10,9 +10,14 @@ import java.io.Serializable;
 @ToString
 @RequiredArgsConstructor
 public class NumbersAllResponse implements Serializable {
+    //Must change this coz of its return
     private Object[] data;
 
     public NumbersAllResponse(Object[] data) {
         this.data = data;
+    }
+
+    public final void getThisMethod(){
+
     }
 }
