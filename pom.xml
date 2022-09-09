@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.numbers</groupId>
-	<artifactId>Numbers</artifactId>
+	<artifactId>numbersRepo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Numbers</name>
 	<description>Results of</description>
@@ -48,6 +48,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${parent.version}</version>
 				<configuration>
 					<excludes>
 						<exclude>
